@@ -1,0 +1,8 @@
+# wersja konfiguracji tego obrazu
+version: '3'
+
+services:
+  php:
+    build: ./php
+    volumes: 
+      - ./app:/var/www
